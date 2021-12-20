@@ -28,10 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.customTrackBar1 = new Borderless.CustomTrackBar();
-            this.customTrackBar2 = new Borderless.CustomTrackBar();
-            this.customTrackBar4 = new Borderless.CustomTrackBar();
-            this.customTrackBar3 = new Borderless.CustomTrackBar();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,56 +37,16 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar2)).BeginInit();
+            this.customTrackBar4 = new Borderless.CustomTrackBar();
+            this.customTrackBar3 = new Borderless.CustomTrackBar();
+            this.customTrackBar2 = new Borderless.CustomTrackBar();
+            this.customTrackBar1 = new Borderless.CustomTrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // customTrackBar1
-            // 
-            this.customTrackBar1.Location = new System.Drawing.Point(146, 112);
-            this.customTrackBar1.Name = "customTrackBar1";
-            this.customTrackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.customTrackBar1.Size = new System.Drawing.Size(45, 104);
-            this.customTrackBar1.TabIndex = 0;
-            this.customTrackBar1.Scroll += new System.EventHandler(this.customTrackBar1_Scroll);
-            this.customTrackBar1.Enter += new System.EventHandler(this.customTrackBar1_Enter);
-            this.customTrackBar1.Leave += new System.EventHandler(this.customTrackBar1_Leave);
-            // 
-            // customTrackBar2
-            // 
-            this.customTrackBar2.Location = new System.Drawing.Point(197, 112);
-            this.customTrackBar2.Name = "customTrackBar2";
-            this.customTrackBar2.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.customTrackBar2.Size = new System.Drawing.Size(45, 104);
-            this.customTrackBar2.TabIndex = 1;
-            this.customTrackBar2.Scroll += new System.EventHandler(this.customTrackBar2_Scroll);
-            this.customTrackBar2.Enter += new System.EventHandler(this.customTrackBar2_Enter);
-            this.customTrackBar2.Leave += new System.EventHandler(this.customTrackBar2_Leave);
-            // 
-            // customTrackBar4
-            // 
-            this.customTrackBar4.Location = new System.Drawing.Point(299, 112);
-            this.customTrackBar4.Name = "customTrackBar4";
-            this.customTrackBar4.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.customTrackBar4.Size = new System.Drawing.Size(45, 104);
-            this.customTrackBar4.TabIndex = 3;
-            this.customTrackBar4.Scroll += new System.EventHandler(this.customTrackBar4_Scroll);
-            this.customTrackBar4.Enter += new System.EventHandler(this.customTrackBar4_Enter);
-            this.customTrackBar4.Leave += new System.EventHandler(this.customTrackBar4_Leave);
-            // 
-            // customTrackBar3
-            // 
-            this.customTrackBar3.Location = new System.Drawing.Point(248, 112);
-            this.customTrackBar3.Name = "customTrackBar3";
-            this.customTrackBar3.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.customTrackBar3.Size = new System.Drawing.Size(45, 104);
-            this.customTrackBar3.TabIndex = 2;
-            this.customTrackBar3.Scroll += new System.EventHandler(this.customTrackBar3_Scroll);
-            this.customTrackBar3.Enter += new System.EventHandler(this.customTrackBar3_Enter);
-            this.customTrackBar3.Leave += new System.EventHandler(this.customTrackBar3_Leave);
             // 
             // trackBar1
             // 
@@ -143,29 +99,89 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(394, 150);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(33, 21);
             this.textBox1.TabIndex = 9;
+            this.textBox1.TabStop = false;
+            this.textBox1.Text = "0";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(433, 150);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(33, 21);
             this.textBox2.TabIndex = 10;
+            this.textBox2.TabStop = false;
+            this.textBox2.Text = "0";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(472, 150);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(33, 21);
             this.textBox3.TabIndex = 11;
+            this.textBox3.TabStop = false;
+            this.textBox3.Text = "0";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(511, 150);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(33, 21);
             this.textBox4.TabIndex = 12;
+            this.textBox4.TabStop = false;
+            this.textBox4.Text = "0";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // customTrackBar4
+            // 
+            this.customTrackBar4.Location = new System.Drawing.Point(299, 112);
+            this.customTrackBar4.Name = "customTrackBar4";
+            this.customTrackBar4.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.customTrackBar4.Size = new System.Drawing.Size(45, 104);
+            this.customTrackBar4.TabIndex = 3;
+            this.customTrackBar4.Scroll += new System.EventHandler(this.customTrackBar4_Scroll);
+            this.customTrackBar4.Enter += new System.EventHandler(this.customTrackBar4_Enter);
+            this.customTrackBar4.Leave += new System.EventHandler(this.customTrackBar4_Leave);
+            // 
+            // customTrackBar3
+            // 
+            this.customTrackBar3.Location = new System.Drawing.Point(248, 112);
+            this.customTrackBar3.Name = "customTrackBar3";
+            this.customTrackBar3.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.customTrackBar3.Size = new System.Drawing.Size(45, 104);
+            this.customTrackBar3.TabIndex = 2;
+            this.customTrackBar3.Scroll += new System.EventHandler(this.customTrackBar3_Scroll);
+            this.customTrackBar3.Enter += new System.EventHandler(this.customTrackBar3_Enter);
+            this.customTrackBar3.Leave += new System.EventHandler(this.customTrackBar3_Leave);
+            // 
+            // customTrackBar2
+            // 
+            this.customTrackBar2.Location = new System.Drawing.Point(197, 112);
+            this.customTrackBar2.Name = "customTrackBar2";
+            this.customTrackBar2.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.customTrackBar2.Size = new System.Drawing.Size(45, 104);
+            this.customTrackBar2.TabIndex = 1;
+            this.customTrackBar2.Scroll += new System.EventHandler(this.customTrackBar2_Scroll);
+            this.customTrackBar2.Enter += new System.EventHandler(this.customTrackBar2_Enter);
+            this.customTrackBar2.Leave += new System.EventHandler(this.customTrackBar2_Leave);
+            // 
+            // customTrackBar1
+            // 
+            this.customTrackBar1.Location = new System.Drawing.Point(146, 112);
+            this.customTrackBar1.Name = "customTrackBar1";
+            this.customTrackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.customTrackBar1.Size = new System.Drawing.Size(45, 104);
+            this.customTrackBar1.TabIndex = 0;
+            this.customTrackBar1.Scroll += new System.EventHandler(this.customTrackBar1_Scroll);
+            this.customTrackBar1.Enter += new System.EventHandler(this.customTrackBar1_Enter);
+            this.customTrackBar1.Leave += new System.EventHandler(this.customTrackBar1_Leave);
             // 
             // TTest
             // 
@@ -186,12 +202,13 @@
             this.Controls.Add(this.customTrackBar2);
             this.Controls.Add(this.customTrackBar1);
             this.Name = "TTest";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TTest";
-            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customTrackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
