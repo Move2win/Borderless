@@ -41,11 +41,13 @@
             this.customTrackBar3 = new Borderless.CustomTrackBar();
             this.customTrackBar2 = new Borderless.CustomTrackBar();
             this.customTrackBar1 = new Borderless.CustomTrackBar();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             this.SuspendLayout();
             // 
             // trackBar1
@@ -183,11 +185,20 @@
             this.customTrackBar1.Enter += new System.EventHandler(this.customTrackBar1_Enter);
             this.customTrackBar1.Leave += new System.EventHandler(this.customTrackBar1_Leave);
             // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(511, 436);
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(298, 45);
+            this.trackBar2.TabIndex = 13;
+            this.trackBar2.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
             // TTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 321);
+            this.ClientSize = new System.Drawing.Size(1103, 643);
+            this.Controls.Add(this.trackBar2);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -209,6 +220,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customTrackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,6 +241,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TrackBar trackBar2;
     }
 }
 
