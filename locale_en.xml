@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <locale>cs</locale>
+    <translationContributors>Wopster</translationContributors>
+
+    <texts>
+        <text name="configuration_buyableGPS" text="GPS"/>
+        <text name="configuration_buyableGPS_withoutGPS" text="No"/>
+        <text name="configuration_buyableGPS_withGPS" text="Yes"/>
+
+        <!--Inputs-->
+        <text name="input_GS_TOGGLE" text="GPS: Toggle guidance steering"/>
+        <text name="input_GS_SHOW_UI" text="GPS: Show guidance steering menu"/>
+        <text name="input_GS_SET_AUTO_WIDTH" text="GPS: Auto width"/>
+
+        <text name="input_GS_AXIS_REALIGN" text="GPS: Realign track"/>
+        <text name="input_GS_AXIS_SHIFT_1" text="GPS: Shift track right"/>
+        <text name="input_GS_AXIS_SHIFT_2" text="GPS: Shift track left"/>
+        <text name="input_GS_AXIS_WIDTH_1" text="GPS: Increase track width"/>
+        <text name="input_GS_AXIS_WIDTH_2" text="GPS: Decrease track width"/>
+
+        <text name="input_GS_ENABLE_STEERING" text="GPS: Steering guidance"/>
+        <text name="input_GS_SETPOINT" text="GPS: Set guidance point"/>
+        <text name="input_GS_TOGGLE_TERRAIN_ANGLE_SNAP" text="GPS: Snap to terrain angle"/>
+        <text name="input_GS_TURN_STEERING" text="GPS: Set steering direction"/>
+        <text name="input_GS_TOGGLE_LINE_DISPLAY" text="GPS: Toggle line display"/>
+        <text name="input_GS_ROTATE_TRACK" text="GPS: Rotate track"/>
+
+        <!--Warnings-->
+        <text name="guidanceSteering_warning_dropDistance" text="Drive at least 15m in order to set point B. Current traveled distance: %.2f"/>
+        <text name="guidanceSteering_warning_setWidth" text="Please set a working width first!"/>
+        <text name="guidanceSteering_warning_createTrackFirst" text="Please create or load a track first!"/>
+
+        <!--GUI-->
+        <text name="guidanceSteering_ui_settings" text="Guidance settings"/>
+        <text name="guidanceSteering_ui_strategy" text="Guidance strategy"/>
+
+        <text name="guidanceSteering_strategy_abStraight" text="AB Straight"/>
+        <text name="guidanceSteering_strategy_abCurve" text="AB Curve"/>
+
+        <text name="guidanceSteering_strategyMethod_aPlusB" text="A+B"/>
+        <text name="guidanceSteering_strategyMethod_autoB" text="Auto B"/>
+        <text name="guidanceSteering_strategyMethod_aPlusHeading" text="A+Heading"/>
+        <text name="guidanceSteering_strategyMethod_aPlusDirection" text="A+Direction"/>
+
+        <!--Tooltips-->
+        <text name="guidanceSteering_tooltip_showLines" text="显示引导线以帮助您进行视觉定位 Support your visuals by showing the guidance lines"/>
+        <text name="guidanceSteering_tooltip_terrainAngleSnap" text="Snap the direction to the terrain angle"/>
+        <text name="guidanceSteering_tooltip_enableGuidanceSteering" text="让GPS自动控制驾驶方向 Let the GPS guide the steering"/>
+        <text name="guidanceSteering_tooltip_autoInvertOffset" text="在车辆掉头时自动翻转非对称工具(例如犁)的偏移量 Automatically invert the offset on a turn"/>
+        <text name="guidanceSteering_tooltip_width" text="设置当前车辆工具的工作宽度 Set the width of your vehicle"/>
+        <text name="guidanceSteering_tooltip_offsetWidth" text="设置当前车辆工具的偏移量 Set the offset of your vehicle"/>
+        <text name="guidanceSteering_tooltip_widthInCrement" text="设置工具宽度的单次改变量 Set the width increment to increase/decrease the width"/>
+        <text name="guidanceSteering_tooltip_offsetIncrement" text="设置工具偏移量的单次改变量 Set the offset increment to increase/decrease the offset"/>
+
+        <text name="guidanceSteering_tooltip_strategy" text="此选项决定使用哪个策略创建引导路径 Determine which strategy to use to create the guidance lines"/>
+        <text name="guidanceSteering_tooltip_strategyMethod" text="此选项决定哪个策略方法将被使用 Determine which strategy method to use"/>
+        <text name="guidanceSteering_tooltip_currentTrack" text="Select the current track to use"/>
+        <text name="guidanceSteering_tooltip_cardinals" text="Set the cardinal points"/>
+
+        <text name="guidanceSteering_setting_scopeTrackFarmId" text="保存当前路径 Save track to farm"/>
+        <text name="guidanceSteering_tooltip_scopeTrackFarmId" text="将当前的路径设定保存到您的农场，在多人模式下默认每个人都可以读取 Save the track scoped to the farm of the vehicle, by default it's accessible for everyone"/>
+
+        <text name="guidanceSteering_setting_offsetLines" text="Line offset"/>
+        <text name="guidanceSteering_tooltip_offsetLines" text="Offset the line for more ground clearance."/>
+
+        <!--Warning tooltip-->
+        <text name="guidanceSteering_tooltip_trackAlreadyExists" text="路径名称'%s'已存在! Track name '%s' already exists!"/>
+        <text name="guidanceSteering_tooltip_trackIsNotCreated" text="保存路径数据失败，请先创建或读取一条路径! Failed to save track data, please create or load a track first!"/>
+
+        <!--Settings-->
+        <text name="guidanceSteering_setting_showLines" text="Show lines"/>
+        <text name="guidanceSteering_setting_terrainAngleSnap" text="Snap terrain angle"/>
+        <text name="guidanceSteering_setting_enableGuidanceSteering" text="Enable guidance steering"/>
+        <text name="guidanceSteering_setting_autoInvertOffset" text="Offset reversal"/>
+        <text name="guidanceSteering_setting_width" text="Width"/>
+        <text name="guidanceSteering_setting_widthIncrement" text="Width increment"/>
+        <text name="guidanceSteering_setting_offsetIncrement" text="Offset increment"/>
+        <text name="guidanceSteering_setting_autoWidth" text="Auto width"/>
+        <text name="guidanceSteering_setting_invertOffset" text="Invert offset"/>
+        <text name="guidanceSteering_setting_changeWidth" text="Increment width"/>
+        <text name="guidanceSteering_setting_offsetWidth" text="Offset width"/>
+        <text name="guidanceSteering_setting_resetOffsetWidth" text="Reset offset"/>
+        <text name="guidanceSteering_setting_changeOffsetWidth" text="Increment offset"/>
+        <text name="guidanceSteering_setting_cardinals" text="Cardinal point"/>
+
+        <text name="guidanceSteering_setting_strategy" text="Line strategy"/>
+        <text name="guidanceSteering_setting_strategyMethod" text="Line method"/>
+        <text name="guidanceSteering_setting_currentTrack" text="Current track"/>
+
+        <text name="guidanceSteering_setting_pointA" text="Set A"/>
+        <text name="guidanceSteering_setting_pointB" text="Set B"/>
+        <text name="guidanceSteering_setting_newTrack" text="Create track"/>
+        <text name="guidanceSteering_setting_removeTrack" text="Remove track"/>
+        <text name="guidanceSteering_setting_saveTrack" text="Save track"/>
+
+        <text name="guidanceSteering_setting_header_headland" text="地头管理 Headland management"/>
+
+        <text name="guidanceSteering_setting_headlandMode" text="地头控制行为 Headland mode"/>
+        <text name="guidanceSteering_tooltip_headlandMode" text="在地头控制行为中您可以设定车辆到达田地边缘时的行为 With the headland mode you can set the acting strategy on the headland."/>
+
+        <text name="guidanceSteering_setting_headlandDistance" text="地头控制提前激活距离 Headland act distance"/>
+        <text name="guidanceSteering_tooltip_headlandDistance" text="设定在实际到达地头前提前激活地头控制行为的距离(米) Distance in meters to act before approaching the headland."/>
+
+        <text name="guidanceSteering_setting_header_lines" text="Lines"/>
+        <text name="guidanceSteering_setting_showLinesAsDots" text="Show as dots"/>
+        <text name="guidanceSteering_tooltip_showLinesAsDots" text="Render the lines with dots, when turned off normal lines are displayed."/>
+
+        <text name="guidanceSteering_headland_mode_0" text="禁用 Off"/>
+        <text name="guidanceSteering_headland_mode_1" text="停车 Stop"/>
+        <text name="guidanceSteering_headland_mode_2" text="向左转入下条路线 Turn left"/>
+        <text name="guidanceSteering_headland_mode_3" text="向右转入下条路线 Turn right"/>
+
+        <!-- Cardinal strategy -->
+        <text name="guidanceSteering_setting_cardinalTitle" text="Desired cardinal (degrees)"/>
+        <text name="guidanceSteering_setting_cardinalConfirmText" text="Set cardinal"/>
+    </texts>
+</l10n>
